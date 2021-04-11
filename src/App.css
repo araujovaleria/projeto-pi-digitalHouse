@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  max-width: 100%;
+}
+li {
+  list-style-type: none;
+}
+
+a,
+button,
+a:active,
+a:focus,
+a:hover {
+  color: #AAAAAA;
+  text-decoration: none;
+  transition: all .3s ease-in-out;
+}
+
+/* Temp */
+.header+small {
+  display: block;
+  padding: 8px;
+  margin: 8px auto 8px 0;
+}

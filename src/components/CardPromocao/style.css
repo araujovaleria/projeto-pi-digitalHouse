@@ -1,0 +1,39 @@
+.cardPromocao {
+  background-color: #fff;
+    border: solid 1px #95989A;
+    border-radius: 12px;
+    width: 266px;
+    height: 390px;
+    margin: 20px;
+    text-align: center;
+  }
+  .cardPromocao__foto {
+    border: none;
+    background-image: url(./img/homem.png);
+    background-repeat: no-repeat;
+    height: 258px;
+    width: 266px;
+
+  }
+  .cardPromocao__title {
+    color: #535353;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+  }
+  .cardPromocao__preco{
+    color: #535353;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+
+  .cardPromocao__btn {
+    border: 1px solid #535353;
+    border-radius: 32px;
+    color: #535353;
+    margin: 14px auto;
+    padding: 8px 16px;
+    margin-bottom: 20px;
+  }
